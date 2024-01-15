@@ -325,18 +325,21 @@ body{
     backdrop-filter: blur(20px);
     border-radius: 0.7rem;
     transition: all ease 0.3s;
+    text-decoration: none;
   }
   
   .container .box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-decoration: none;
   }
   
   .container .box .title {
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.1em;
+    text-decoration: none;
   }
   
   .container .box div strong {
@@ -354,6 +357,7 @@ body{
   .container .box div span {
     font-size: 0.7rem;
     font-weight: 300;
+    text-decoration: none;
   }
   #decription{
     margin-top: 0;
@@ -379,6 +383,10 @@ body{
 #img{
     margin-top: 0%;
     width: 300px;
+}
+.titlebox{
+  color: #000;
+  text-decoration: none;
 }
 .contact{
     background-color: black;
