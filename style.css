@@ -289,6 +289,7 @@ body{
     color: white;
     position: relative;
     font-family: sans-serif;
+    text-decoration: none;
   }
   
   .container::before,
@@ -304,6 +305,7 @@ body{
     height: 6rem;
     top: 30%;
     right: 7%;
+    text-decoration: none;
   }
   
   .container::after {
@@ -313,6 +315,7 @@ body{
     top: 8%;
     right: 5%;
     border: 1px solid;
+    text-decoration: none;
   }
   
   .container .box {
@@ -385,7 +388,6 @@ body{
     width: 300px;
 }
 .titlebox{
-  color: #000;
   text-decoration: none;
 }
 .contact{
